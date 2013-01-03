@@ -16,4 +16,7 @@ that day's archive on LJ.
 * hipsterpda-shortcode :: Defines a shortcode to put at the top of all
 HipsterPDA posts that links to all other HipsterPDA posts.
 
+* custom-meta :: various constant HTML META attributes to put in the document
+header.
+
 
