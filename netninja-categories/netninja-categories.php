@@ -3,7 +3,7 @@
 Plugin Name: Netninja-Categories
 Plugin URI: http://netninja.com
 Description: Add category pictures to blog posts
-Version: 1.0
+Version: 1.1
 Author: Brian Enigma
 Author URI: http://netninja.com
 */
@@ -28,6 +28,7 @@ $nncat_category_slugs_with_pictures = array(
     'pictures',
     'portland',
     'projects',
+    'puzzlegames',
     'questions',
     'quotes',
     'software',
