@@ -63,8 +63,8 @@ function nncat_content_filter($content)
                 '</a> ';
         }
         $boilerplate = "Posted in: " . $cat_text;
-        $content = '<div style="font-size:9pt; margin:1em; padding:0.5em 2em; border:solid #cccccc 2px; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; background-color:#ffffff; color:#000000;">' .
-            $boilerplate . '</div>' . $content;
+        $content = $content . '<div style="font-size:9pt; margin:1em; padding:0.5em 2em; border:solid #cccccc 2px; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; background-color:#ffffff; color:#000000;">' .
+            $boilerplate . '</div>';
     }
     return $content;
 }
