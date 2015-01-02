@@ -15,7 +15,7 @@ define('LJO_DATE_TEXT', '8 April 2007');
 
 function ljo_content_filter($content)
 {
-    if (get_the_time('U') < 1175990400) // 2007-04-08 as Unix timestamp
+    if (!is_page() && get_the_time('U') < 1175990400) // 2007-04-08 as Unix timestamp
     {
         $url = "http://brianenigma.livejournal.com/" . get_the_time('Y') . "/" . get_the_time('m') . "/";
         $boilerplate = "Please note that all blog posts before <i>" . LJO_DATE_TEXT . "</i> " .
