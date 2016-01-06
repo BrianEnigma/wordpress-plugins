@@ -58,8 +58,8 @@ function nncat_content_filter($content)
         $cat_text = '';
         foreach($cats as $cat)
         {
-            $cat_text = $cat_text . '<a href="http://netninja.com/category/' . $cat['slug'] . '">' .
-                '<img src="http://netninja.com/wp-content/plugins/netninja-categories/' . $cat['slug'] . '.png" width="32" height="32" alt="' . $cat['name'] . '" title="' . $cat['name'] . '" style="box-shadow:none; margin:0; padding:0; border:0; vertical-align:middle;" />' .
+            $cat_text = $cat_text . '<a href="https://netninja.com/category/' . $cat['slug'] . '" style="border:none;">' .
+                '<img src="https://netninja.com/wp-content/plugins/netninja-categories/' . $cat['slug'] . '.png" width="32" height="32" alt="' . $cat['name'] . '" title="' . $cat['name'] . '" style="box-shadow:none; margin:0; padding:0; border:0; vertical-align:middle; display:inline;" />' .
                 '</a> ';
         }
         $boilerplate = "Posted in: " . $cat_text;
